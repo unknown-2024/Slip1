@@ -1,0 +1,29 @@
+Write a Python program to prepare Scatter Plot for Iris Dataset
+
+upload iris.csv file in jupyter notebook
+program -
+
+pip install matplotlib
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = pd.read_csv("Iris.csv")
+print (data.head(10))      ## this will print the first 10 rows of data
+data.shape        ## displays number of rows and columns in data
+type(data)       
+
+plt.plot(data.Id, data["SepalLengthCm"],"r-.")     ## third arg is to use pattern for plot
+
+plt.show     ## this is line plot
+
+Scatter plot
+data.plot(kind ="scatter", x ='SepalLengthCm', y ='PetalLengthCm')    ## this will plot scatter plot
+
+plt.grid()
+
+plt.xlabel('Sepal Length cm')
+
+plt.ylabel('Petal Width cm')
+
+
