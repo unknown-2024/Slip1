@@ -1,6 +1,8 @@
 Write a Python program to prepare Scatter Plot for Iris Dataset
 
-upload iris.csv file in jupyter notebook
+create folder --> name it --> then go into folder --> select python3 --> name it 
+upload iris.csv file 
+excute one command at a time
 program -
 
 pip install matplotlib
