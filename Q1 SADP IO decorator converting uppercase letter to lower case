@@ -39,3 +39,10 @@ public class Slip1 {
         }
     }
 }
+-------------------------------------------------------------------------------------------------------
+
+steps to execute
+1. open notepad++ --> insert code --> goto languauge --> select j --> create text file
+2. file --> open containing folder --> cmd
+3. javac progname.java
+4.java program
